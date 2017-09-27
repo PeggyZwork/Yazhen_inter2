@@ -1,0 +1,348 @@
+
+.item{
+  position:absolute;
+  top:0;
+}
+.item2{
+  position:absolute;
+  bottom:0;
+}
+#bar001{
+background:white;
+}
+#bar001:hover{
+background:red;
+}
+#bar002{
+background: white;
+}
+#bar002:hover{
+background:red;
+}
+#bar003{
+background: white;
+
+}
+#bar003:hover{
+background:red;
+}
+#bar004{
+background:white;
+
+}
+#bar004:hover{
+background:red;
+}
+#bar005{
+background: white;
+
+}
+#bar005:hover{
+background:red;
+}
+#bar006{
+background: white;
+
+}
+#bar006:hover{
+background:red;
+}
+#bar007{
+  background: white;
+}
+#bar007:hover{
+background:red;
+}
+#bar008{
+background: white;
+
+}
+#bar008:hover{
+background:red;
+}
+#bar009{
+background: white;
+
+}
+#bar009:hover{
+background:red;
+}
+#bar010{
+background: white;
+}
+#bar010:hover{
+background:red;
+}
+
+#bar011{
+background:white;
+}
+
+#bar011:hover{
+background:red;
+}
+#bar012{
+background: white;
+
+}
+#bar012:hover{
+background:red;
+}
+#bar013{
+background: white;
+
+}
+#bar013:hover{
+background:red;
+}
+#bar014{
+background: white;
+
+}
+#bar014:hover{
+background:red;
+}
+#bar015{
+background:white;
+}
+#bar015:hover{
+background:red;
+}
+#bar016{
+background: white;
+}
+#bar016:hover{
+background:red;
+}
+#bar017{
+background: white;
+
+}
+#bar017:hover{
+background:red;
+}
+#bar018{
+background: white;
+
+}
+#bar018:hover{
+background:red;
+}
+#bar019{
+background: white;
+
+}
+#bar019:hover{
+background:red;
+}
+#bar020{
+background: white;
+
+}
+#bar020:hover{
+background:red;
+}
+#bar021{
+width:30px;
+}
+#bar021:hover{
+background:red;
+}
+#bar022{
+background: white;
+
+}
+#bar022:hover{
+background:red;
+}
+#bar023{
+background: white;
+
+}
+#bar023:hover{
+background:red;
+}
+#bar01{
+background:white;
+}
+#bar01:hover{
+background:red;
+}
+#bar02{
+background: white;
+}
+#bar02:hover{
+background:red;
+}
+#bar03{
+background: white;
+
+}
+#bar03:hover{
+background:red;
+}
+#bar04{
+background:white;
+
+}
+#bar04:hover{
+background:red;
+}
+#bar05{
+background: white;
+
+}
+#bar05:hover{
+background:red;
+}
+#bar06{
+background: white;
+
+}
+#bar06:hover{
+background:red;
+}
+#bar07{
+  background: white;
+}
+#bar07:hover{
+background:red;
+}
+#bar08{
+background: white;
+
+}
+#bar08:hover{
+background:red;
+}
+#bar09{
+background: white;
+
+}
+#bar09:hover{
+background:red;
+}
+#bar10{
+background: white;
+}
+#bar10:hover{
+background:red;
+}
+
+#bar11{
+background:white;
+}
+
+#bar11:hover{
+background:red;
+}
+#bar12{
+background: white;
+
+}
+#bar12:hover{
+background:red;
+}
+#bar13{
+background: white;
+
+}
+#bar13:hover{
+background:red;
+}
+#bar14{
+background: white;
+
+}
+#bar14:hover{
+background:red;
+}
+#bar15{
+background:white;
+}
+#bar15:hover{
+background:red;
+}
+#bar16{
+background: white;
+}
+#bar16:hover{
+background:red;
+}
+#bar17{
+background: white;
+
+}
+#bar17:hover{
+background:red;
+}
+#bar18{
+background: white;
+
+}
+#bar18:hover{
+background:red;
+}
+#bar19{
+background: white;
+
+}
+#bar19:hover{
+background:red;
+}
+#bar20{
+background: white;
+
+}
+#bar20:hover{
+background:red;
+}
+#bar21{
+background: white;
+}
+#bar21:hover{
+background:red;
+}
+#bar22{
+background: white;
+
+}
+#bar22:hover{
+background:red;
+}
+#bar23{
+background: white;
+
+}
+#bar23:hover{
+background:red;
+}
+
+html.color-scheme-1 {
+     background-color:pink;
+     color: red;
+}
+
+html.color-scheme-2 {
+     background-color:#2860A3;
+     color: yellow;
+}
+
+html.color-scheme-3 {
+     background-color:#136340;
+     color: yellow;
+}
+html.color-scheme-4 {
+     background-color:black;
+     color: red;
+}
+
+html.color-scheme-5 {
+     background-color:#85837D;
+     color: yellow;
+}
+
+html.color-scheme-6 {
+     background-color:#660FBA;
+     color: yellow;
+}
