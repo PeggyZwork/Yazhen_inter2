@@ -5,14 +5,14 @@ $(document).ready(function(){
   $(".item").each(function(){
     $(this).css("top", Math.random()*0);
     $(this).css("width", 20+Math.random()*80);
-    $(this).css("height",30+ Math.random()*10);
+    $(this).css("height",60+ Math.random()*40);
     $(this).css("left",75* count1++);
 
 });
   $(".item2").each(function(){
     $(this).css("bottom", Math.random()*0);
     $(this).css("width", 20+Math.random()*80);
-    $(this).css("height",30+ Math.random()*10);
+    $(this).css("height",60+ Math.random()*40);
     $(this).css("left",75* count2++);
 });
   $(".item").hover(function(){
@@ -102,7 +102,7 @@ $('#bar009').hover(function(){
     $('#bar15').animate({height:20},2500);
     $('#bar23').animate({height:20},2000);
 });
- $('#bar010').hover(function(){
+ $('#bar08').hover(function(){
     $(this).animate({height:600},1000);
     $('#bar09').animate({height:400},1000);
     $('#bar04').animate({height:300},1000);
@@ -129,59 +129,67 @@ $('#bar10').hover(function(){
    $('#bar012').animate({height:20},3000);
    $('#bar013').animate({height:20},3000);
 });
-$('#bar15').hover(function(){
+$('#bar17').hover(function(){
    $(this).animate({height:600},1000);
-   $('#bar005').animate({height:600},2000);
+   $('#bar021').animate({height:600},2000);
    $('#bar017').animate({height:350},800);
 },function(){
    $(this).animate({height:20},2500);
-   $('#bar005').animate({height:20},3000);
+   $('#bar021').animate({height:20},3000);
    $('#bar017').animate({height:20},3000);
 });
 $('#bar04').hover(function(){
    $(this).animate({height:600},1000);
-   $('#bar012').animate({height:800},1500);
+   $('#bar018').animate({height:800},1500);
    $('#bar015').animate({height:400},1000);
 },function(){
    $(this).animate({height:20},2500);
-   $('#bar012').animate({height:20},3000);
+   $('#bar018').animate({height:20},3000);
    $('#bar015').animate({height:20},3000);
 });
-$('#bar08').hover(function(){
+$('#bar07').hover(function(){
    $(this).animate({height:600},1000);
-   $('#bar017').animate({height:700},2000);
+   $('#bar02').animate({height:700},2000);
    $('#bar018').animate({height:500},1000);
 },function(){
    $(this).animate({height:20},2500);
-   $('#bar017').animate({height:20},3000);
+   $('#bar02').animate({height:20},3000);
    $('#bar018').animate({height:20},3000);
 });
 $('#bar12').hover(function(){
    $(this).animate({height:500},1000);
    $('#bar003').animate({height:550},2000);
-   $('#bar006').animate({height:600},1000);
+   $('#bar01').animate({height:600},1000);
 },function(){
    $(this).animate({height:20},2500);
    $('#bar003').animate({height:20},3000);
-   $('#bar006').animate({height:20},3000);
+   $('#bar01').animate({height:20},3000);
 });
 $('#bar06').hover(function(){
    $(this).animate({height:400},1000);
    $('#bar004').animate({height:650},1000);
    $('#bar008').animate({height:500},2000);
+   $('#bar05').animate({height:650},1000);
+   $('#bar020').animate({height:500},2000);
 },function(){
    $(this).animate({height:20},2500);
    $('#bar004').animate({height:20},3000);
    $('#bar008').animate({height:20},3000);
+   $('#bar05').animate({height:20},3000);
+   $('#bar020').animate({height:20},3000);
 });
 $('#bar09').hover(function(){
    $(this).animate({height:400},1000);
    $('#bar13').animate({height:650},1000);
    $('#bar17').animate({height:500},2000);
+   $('#bar03').animate({height:650},1000);
+   $('#bar022').animate({height:500},2000);
 },function(){
    $(this).animate({height:20},2500);
    $('#bar13').animate({height:20},3000);
    $('#bar17').animate({height:20},3000);
+   $('#bar03').animate({height:20},3000);
+   $('#bar022').animate({height:20},3000);
 });
 $('#bar12').hover(function(){
    $(this).animate({height:400},1000);
@@ -259,6 +267,7 @@ $('#bar003').click(function(){
     $(this).css('background-color', '#0DFFD3');
   }else if(bar003 % 2 == 1){
     $(this).css('background-color', '#FF00E1');
+    $('#bar014').css('background-color', '#E56917');
   }
   bar003 ++;
 });
@@ -268,6 +277,7 @@ $('#bar004').click(function(){
     $(this).css('background-color', '#FF00E1');
   }else if(bar004 % 2 == 1){
     $(this).css('background-color', 'white');
+    $('#bar13').css('background-color', '#E56917');
   }
   bar004 ++;
 });
@@ -373,6 +383,7 @@ $('#bar015').click(function(){
     $(this).css('background-color', '#FFF200');
   }else if(bar015 % 2 == 1){
     $(this).css('background-color', 'white');
+    $('#bar15').css('background-color', '#FFF200');
   }
   bar015 ++;
 });
@@ -411,6 +422,62 @@ $('#bar02').click(function(){
   }
   bar02 ++;
 });
+var bar005 = 0;
+$('#bar005').click(function(){
+  if(bar005 % 2 == 0){
+    $(this).css('background-color', '#7833C2');
+  }else if(bar005 % 2 == 1){
+    $(this).css('background-color', 'white');
+    $('#bar008').css('background-color', '#FF00E1');
+    $('#bar10').css('background-color', '#7833C2');
+  }
+  bar005 ++;
+});
+var bar03 = 0;
+$('#bar03').click(function(){
+  if(bar03 % 2 == 0){
+    $(this).css('background-color', '#E56917');
+  }else if(bar03 % 2 == 1){
+    $(this).css('background-color', 'white');
+    $('#bar19').css('background-color', '#008058');
+    $('#bar017').css('background-color', '#008058');
+  }
+  bar03 ++;
+});
+var bar017 = 0;
+$('#bar017').click(function(){
+  if(bar017 % 2 == 0){
+    $(this).css('background-color', '#7833C2');
+  }else if(bar017 % 2 == 1){
+    $(this).css('background-color', '#008058');
+    $('#bar22').css('background-color', '#FFF200');
+    $('#bar08').css('background-color', '#7833C2');
+  }
+  bar017 ++;
+});
+var bar14 = 0;
+$('#bar14').click(function(){
+  if(bar14 % 2 == 0){
+    $(this).css('background-color', '#7833C2');
+  }else if(bar14 % 2 == 1){
+    $(this).css('background-color', '#008058');
+    $('#bar022').css('background-color', '#FFF200');
+    $('#bar013').css('background-color', '#7833C2');
+  }
+  bar14 ++;
+});
+var bar016 = 0;
+$('#bar016').click(function(){
+  if(bar016 % 2 == 0){
+    $(this).css('background-color', '#7833C2');
+  }else if(bar016 % 2 == 1){
+    $(this).css('background-color', '#008058');
+    $('#bar002').css('background-color', '#FF00E1');
+    $('#bar020').css('background-color', '#FF00E1');
+  }
+  bar016 ++;
+});
+
 
     var listOfClasses = ["color-scheme-1","color-scheme-2","color-scheme-3","color-scheme-4","color-scheme-4","color-scheme-6"];
     var randomNum = Math.floor(Math.random() * listOfClasses.length);
