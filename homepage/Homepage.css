@@ -16,8 +16,8 @@
   vertical-align:middle;
 	font-family:"Fira Sans";
 	font-size: 35px;
-  text-align: center;
-  margin-left: 35%;
+  text-align: right;
+  margin-left: 30%;
   margin-top: 5%;
   line-height: 60px;
 }
@@ -41,4 +41,11 @@
 	font-size: 20px;
   margin-left: 46%;
   margin-top:22%;
+}
+.name4{
+  position:absolute;
+	font-family:"Fira Sans";
+	font-size: 20px;
+  margin-left: 46%;
+  margin-top:29%;
 }
