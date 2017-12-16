@@ -1,0 +1,22 @@
+.name{
+  position:absolute;
+	font-family:"Fira Sans";
+	font-size: 25px;
+  left:30px;
+}
+.class{
+  position:absolute;
+  font-family:"Fira Sans";
+	font-size: 25px;
+  margin-left: 88%;
+  margin-top:50%;
+}
+.project{
+  position:absolute;
+  vertical-align:middle;
+	font-family:"Fira Sans";
+	font-size: 35px;
+  text-align: center;
+  margin-left: 42%;
+  margin-top: 5%;
+}

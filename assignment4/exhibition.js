@@ -683,7 +683,7 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-$("#button3").mouseover(function(){
+$("#button").mouseover(function(){
     $("span2").animate({opacity:0},2000);
       $("span3").animate({opacity:0},500);
         $("span4").animate({opacity:0},1000);
@@ -695,7 +695,7 @@ $("#button3").mouseover(function(){
             $("span10").animate({opacity:0},1500);
             $("span11").animate({opacity:0},850);
         });
-$("#button3").mouseout(function(){
+$("#button").mouseout(function(){
     $("span2").animate({opacity:100},300);
       $("span3").animate({opacity:100},400);
         $("span4").animate({opacity:100},200);
@@ -1105,13 +1105,22 @@ $("#event4").mouseover( 'click touchstart',function() {
       $("span50").animate({letterSpacing:"1px",}, 5000);
       $("span51").animate({letterSpacing:"1px",}, 3000);
         });
-        $("#button2").click(function(){
-            for(var i = 12; i < 51; i ++){
-                $("span" + i).clearQueue();
-                $("span" + i).stop();
-            }
-});
+        $("#button").click(function(){
+                if ($("#button").text()=='TRUN ON'){
+                  $("#button").text("TRUN OFF");
+                }
+                else {
+                $("#button").text("TRUN ON");
+              }
+              });
+
+$("#button2").click(function(){
+for(var i = 12; i < 52; i ++){
+    $("span" + i).clearQueue();
+    $("span" + i).stop();
+  }
     });
+  });
     $(document).ready(function(){
     $(".link").mouseover( 'click touchstart',function() {
         $("span52").animate({opacity:0},800);

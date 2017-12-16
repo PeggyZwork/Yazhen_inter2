@@ -1467,13 +1467,13 @@ $(".square-x5").hover(function(){
   $(".square-x4").addClass("square-x4-2");
 });
 $('.bottom').bind('click', function() {
-      FadeOutw5();
+      FadeOutx2();
   });
-  function FadeOutw5()
+  function FadeOutx2()
   {
-      setTimeout(function () { FadeDivw5(); }, 7500);
+      setTimeout(function () { FadeDivx2(); }, 7500);
   }
-  function FadeDivw5()
+  function FadeDivx2()
   {
   $(".square-x5").removeClass("square-x5-2");
   $(".square-x4").removeClass("square-x4-2");
@@ -1484,13 +1484,13 @@ $(".square-x10").hover(function(){
   $(".square-x11").addClass("square-x11-2");
 });
 $('.bottom').bind('click', function() {
-      FadeOutw3();
+      FadeOutx3();
   });
-  function FadeOutw3()
+  function FadeOutx3()
   {
-      setTimeout(function () { FadeDivw3(); }, 7400);
+      setTimeout(function () { FadeDivx3(); }, 7400);
   }
-  function FadeDivw3()
+  function FadeDivx3()
   {
   $(".square-x10").removeClass("square-x10-2");
   $(".square-x11").removeClass("square-x11-2");
@@ -1501,13 +1501,13 @@ $(".square-x7").hover(function(){
   $(".square-x6").addClass("square-x6-2");
 });
 $('.bottom').bind('click', function() {
-      FadeOutw6();
+      FadeOutx4();
   });
-  function FadeOutw6()
+  function FadeOutx4()
   {
-      setTimeout(function () { FadeDivw6(); }, 7600);
+      setTimeout(function () { FadeDivx4(); }, 7600);
   }
-  function FadeDivw6()
+  function FadeDivx4()
   {
   $(".square-x7").removeClass("square-x7-2");
   $(".square-x6").removeClass("square-x6-2");
@@ -1518,13 +1518,13 @@ $(".square-x9").hover(function(){
   $(".square-x2").addClass("square-x2-2");
 });
 $('.bottom').bind('click', function() {
-      FadeOutw2();
+      FadeOutx5();
   });
-  function FadeOutw2()
+  function FadeOutx5()
   {
-      setTimeout(function () { FadeDivw2(); }, 7300);
+      setTimeout(function () { FadeDivx5(); }, 7300);
   }
-  function FadeDivw2()
+  function FadeDivx5()
   {
   $(".square-x9").removeClass("square-x9-2");
   $(".square-x2").removeClass("square-x2-2");
@@ -1535,13 +1535,13 @@ $(".square-x14").hover(function(){
   $(".square-x15").addClass("square-x15-2");
 });
 $('.bottom').bind('click', function() {
-      FadeOutw4();
+      FadeOutx6();
   });
-  function FadeOutw4()
+  function FadeOutx6()
   {
-      setTimeout(function () { FadeDivw4(); }, 7400);
+      setTimeout(function () { FadeDivx6(); }, 7400);
   }
-  function FadeDivw4()
+  function FadeDivx6()
   {
   $(".square-x14").removeClass("square-x14-2");
   $(".square-x15").removeClass("square-x15-2");
